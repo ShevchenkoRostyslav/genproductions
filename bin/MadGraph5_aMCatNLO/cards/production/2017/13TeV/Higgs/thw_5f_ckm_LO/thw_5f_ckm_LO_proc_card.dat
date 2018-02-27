@@ -38,5 +38,6 @@ define p = p b b~
 define j = j b b~
 define tt = t t~
 define ww = w+ w-
-generate p p > x0 tt ww
+generate p p > x0 t w-, (t > w+ b, w+ > all all )
+add process p p > x0 t~ w+, (t~ > w- b~, w- > all all)
 output thw_5f_ckm_LO -nojpeg
